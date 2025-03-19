@@ -250,7 +250,7 @@ public class ArbolAVL1 <T extends Comparable <T>>{
         if (nodo == null) {
             return 0; 
         }
-        return Math.max(altura(nodo.izq), altura(nodo.der));
+        return 1 + Math.max(altura(nodo.izq), altura(nodo.der));
     }
 
    
